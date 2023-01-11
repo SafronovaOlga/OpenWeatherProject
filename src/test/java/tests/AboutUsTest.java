@@ -17,7 +17,6 @@ public class AboutUsTest extends BaseTest {
                 "Products documentation",
                 "News and Updates"
         );
-
         List<String> actualOptions = openBaseURL()
                 .scrollToFooterMenu()
                 .clickAboutUsFooterMenu()
